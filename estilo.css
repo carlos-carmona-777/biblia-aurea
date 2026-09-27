@@ -1,0 +1,12 @@
+:root{--papel:#f7f1e3;--tinta:#2b2118;--suave:#6b5a45;--oro:#a8832f;--linea:#e2d6bb}
+@media (prefers-color-scheme:dark){:root{--papel:#1b1712;--tinta:#efe6d2;--suave:#b8a88c;--oro:#d4ae5a;--linea:#3a3126}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:17px/1.6 Georgia,"Iowan Old Style",serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px 64px}
+h1{font-style:italic;color:var(--oro);font-weight:normal;font-size:2.2em;margin:0 0 4px}
+h2{font-size:1.15em;margin:2em 0 .4em;color:var(--tinta)}
+.lema{color:var(--suave);margin:0 0 2em}
+a{color:var(--oro)}
+nav{border-top:1px solid var(--linea);margin-top:3em;padding-top:1em;font-size:.9em;color:var(--suave)}
+nav a{margin-right:1.2em}
+ul{padding-left:1.2em}
